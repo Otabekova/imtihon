@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height:100vh;
+    background-color: #f9f9f9;
+}
+
+.container{
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    color: #333;
+}
+
+.rasm img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}.rasm h2{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.box{
+    color: #666;
+    font-style: italic;
+}
+.buttons button{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3488db;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px grey;
+    border: none;
+}
+.buttons button:hover{
+    background-color: #2980b9;
+}
+
